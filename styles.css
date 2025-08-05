@@ -1,0 +1,4 @@
+body{font-family:"Courier New",monospace;background:#111;color:#eee;text-align:center}
+#farm{display:grid;grid-template-columns:repeat(5,32px);gap:2px;justify-content:center;margin:20px auto}
+.tile{width:32px;height:32px;background:#8B5A2B;cursor:pointer}
+.tile.planted{background:#228B22}
