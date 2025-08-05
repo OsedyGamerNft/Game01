@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>TinyHarvest DEMO</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>🌱 TinyHarvest DEMO</h1>
+  <div id="farm"></div>
+  <div id="inventory">
+    <h3>Inventario</h3>
+    <ul id="invList"></ul>
+  </div>
+  <div id="market">
+    <h3>Mercado</h3>
+    <ul id="marketList"></ul>
+    <input id="priceInput" type="number" placeholder="Precio" min="1">
+    <button onclick="sell()">Vender seleccionado</button>
+  </div>
+
+  <script src="game.js"></script>
+  <script src="market.js"></script>
+</body>
+</html>
